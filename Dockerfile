@@ -2,7 +2,7 @@
 #
 # VERSION               0.0.3
 
-FROM alpine:latest
+FROM bashell/alpine:3.8
 MAINTAINER Chaiwat Suttipongsakul "cwt@bashell.com"
 
 # make sure the package repository is up to date
