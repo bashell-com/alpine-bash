@@ -1,6 +1,6 @@
 # bash on alpine
 
-FROM docker.io/bashell/alpine:3.8.2
+FROM quay.io/bashell/alpine:3.8.2
 
 # make sure the package repository is up to date
 RUN apk update \
