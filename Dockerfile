@@ -12,7 +12,7 @@ RUN apk update \
 # change default shell from ash to bash
 RUN sed -i -e "s/bin\/ash/bin\/bash/" /etc/passwd
 
-ENV LC_ALL=en_US.UTF-8
+ENV LC_ALL=C.UTF-8
 
 WORKDIR /root
 
